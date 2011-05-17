@@ -1,0 +1,2 @@
+*/5 * * * * /PATH/TO/THIS/DIRECTORY/hashtag_catcher.php sometag &> /dev/null
+
