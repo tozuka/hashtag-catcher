@@ -1,4 +1,1 @@
-Options ExecCGI
-DirectoryIndex index.php index.cgi
-AddHandler cgi-script .cgi
-
+DirectoryIndex index.php
