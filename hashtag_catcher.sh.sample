@@ -1,0 +1,8 @@
+#!/bin/bash
+BOTDIR=/PATH/TO/HERE
+
+pushd . > /dev/null
+cd $BOTDIR
+/usr/bin/env php hashtag_catcher.php $1
+popd > /dev/null
+

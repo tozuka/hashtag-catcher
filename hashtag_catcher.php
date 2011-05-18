@@ -46,6 +46,7 @@ $params = array();
 
 #$params['q'] = urlencode($hashtag);
 $params['q'] = $hashtag;
+$params['rpp'] = 100;
 
 $since_id = Entry::maxId();
 if ($since_id)

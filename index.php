@@ -72,7 +72,7 @@ $has_next = ($offset + $limit < $cnt) ? true : false;
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
- <link rel="stylesheet" type="text/css" href="togetter.css" />
+ <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 <body>
 <div id="document">
