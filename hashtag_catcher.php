@@ -54,7 +54,7 @@ if ($since_id)
 }
 else
 {
-  $params['since'] = '2011-05-05';
+# $params['since'] = '2011-05-05';
 }
 
 $response = $to->oAuthRequest('http://search.twitter.com/search.atom', 'GET', $params);
